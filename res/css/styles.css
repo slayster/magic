@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    font-size: 12pt;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    background: #000000;
+    color: #FFFFFF;
+}
+
+img {
+    border: 0px;
+}
+
+form {
+    margin: 0px;
+}
+
+header,footer,section,nav {
+    display: block;
+}
+
+section.main {
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: left;
+    width: 1000px;
+    min-height: 500px;
+}
+
+section.main-right {
+    float: right;
+    text-align: center;
+    width: 500px;   
+}
+
+h1 {
+    margin-top: 5px;
+    font-size: 30pt;
+}
+
+h2 {
+    font-size: 12pt;
+    color: #EB1C23;
+}
+
+section.players2 {
+    width: 500px;
+}
+
+section.players3 {
+    width: 333px;
+}
+
+section.players4 {
+    width: 250px;
+}
+
+section.players5 {
+    width: 200px;
+}
+
+section.players6 {
+    width: 166px;
+}
+
+section.players2,section.players3,section.players4,section.players5,section.players6 {
+    height: 510px;
+    float: left;
+    text-align: center;
+}
+
+section.players2 h2,section.players3 h2,section.players4 h2,section.players5 h2,section.players6 h2 {
+    color: #dddddd;
+    font-size:20pt;
+    margin-top: 10px;
+    text-shadow: 2px 2px #000000;   
+}
+
+.player_score {
+    margin-top: 170px;
+    text-shadow: 2px 2px #000000;   
+    font-size: 100pt;
+}
+
+.score_control {
+    width: 250px;
+    height: 125px;
+    margin: 5px auto;
+}
+
+.score_control6 {
+    width: 166px;
+    height: 125px;
+    margin: 5px auto;
+}
+
+section.options {
+    margin: 20px auto;
+    text-align: center;
+    width: 1000px;
+    min-height: 130px;
+}
